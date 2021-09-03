@@ -2,7 +2,7 @@
 .div1{
     padding-top: 16px;
     width: 100%;
-    height: 156px;
+    height: 150px;
     background-image: url('adrien-olichon-ilVYjf0J378-unsplash\ \(1\).jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -23,4 +23,41 @@
     background-size: 100% 100%;
     
     
+}
+#option{
+    width: 100%;
+}
+.option1{
+    width: 25%;
+}
+.result{
+    width: 50%;
+    height: 350px;
+    margin-top: 6%;
+    margin-left: 28%;
+}
+.card{
+    width: 60%;
+    height: 100px;
+    float: left;
+    margin-left: 10%;
+    
+}
+.img{
+    width: 100%;
+}
+@media (max-width:400px){
+    .heading{
+        font-size: 13px;
+        margin-left: 5px;
+    }
+    #option{
+        font-size: 13px;
+    }
+    option{
+        font-size: 13px;
+    }
+    .card{
+        font-size: 13px;
+    }
 }

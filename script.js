@@ -15,9 +15,9 @@ function getCountryName() {
     }
 }
 function dropdown(datas) {
-    let data = `<option>${"Select Country Name"}</option>`
+    let data = `<option class="option1">${"Select Country Name"}</option>`
     for (let i = 0; i < datas.length; i++) {
-        data += ` <option value="${datas[i].name}">${datas[i].name}</option>`
+        data += ` <option class="option1" value="${datas[i].name}">${datas[i].name}</option>`
     }
     option.innerHTML = data
 }
@@ -46,8 +46,8 @@ function displayCountry(country) {
     let currency_name = country[0].currencies[0].name
     let currency_symbol = country[0].currencies[0].symbol
 
-    let html_data = `<div class="card" style="width: 18rem;">
-    <img src="${flag}" class="card-img-top" alt="...">
+    let html_data = `<div class="card">
+    <img src="${flag}" class="img" alt="...">
     <div class="card-body">
       <h5 class="card-title">${country_name}</h5>
     </div>
