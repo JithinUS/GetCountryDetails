@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+.div1{
+    padding-top: 16px;
+    width: 100%;
+    height: 156px;
+    background-image: url('adrien-olichon-ilVYjf0J378-unsplash\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.heading{
+    margin-left: 123px;
+    font-family: 'Hina Mincho', serif;
+    color: white;
+    font-weight: 30px;
+
+}
+.div2{
+    float: left;
+    width: 100%;
+    height: 600px;
+    background-image: url('george-bakos-9d0lN17MdEU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
