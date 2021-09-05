@@ -24,6 +24,10 @@
     
     
 }
+.img{
+    height: 100%;
+    width: 100%;
+}
 #option{
     width: 33%;
     margin: 32%;
@@ -36,6 +40,7 @@
     height: 350px;
     margin-top: 6%;
     margin-left: 28%;
+    border: solid red 2px;
 }
 .card{
     width: 60%;
@@ -44,9 +49,7 @@
     margin-left: 10%;
     
 }
-.img{
-    width: 100%;
-}
+
 @media (max-width:400px){
     .heading{
         font-size: 13px;
