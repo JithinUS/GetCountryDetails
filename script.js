@@ -49,7 +49,7 @@ function displayCountry(country) {
     let html_data = `<div class="card">
     <img src="${flag}" class="img" alt="...">
     <div class="card-body">
-      <h5 class="card-title">${country_name}</h5>
+      <h5 class="card-title" style="color: whitesmoke;">${country_name}</h5>
     </div>
     <ul class="list-group list-group-flush">
       <li class="list-group-item">Population : ${population}</li>
