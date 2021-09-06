@@ -45,17 +45,30 @@ function displayCountry(country) {
     let population = country[0].population
     let currency_name = country[0].currencies[0].name
     let currency_symbol = country[0].currencies[0].symbol
+    let html_data = `<div class="card" style="width: 18rem;">
+<img src="${flag}" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">${country_name}</h5>
+</div>
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">Population : ${population}</li>
+  <li class="list-group-item">Currency Name : ${currency_name}</li>
+  <li class="list-group-item">Currency Symbol : ${currency_symbol}</li>
+</ul>
+</div>`
 
-    let html_data = `<div class="card">
-    <img src="${flag}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title" style="color: whitesmoke;">${country_name}</h5>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Population : ${population}</li>
-      <li class="list-group-item">Currency Name : ${currency_name}</li>
-      <li class="list-group-item">Currency Symbol : ${currency_symbol}</li>
-    </ul>
-    </div>`
+    // let html_data = `<div class="card">
+    // <img src="${flag}" class="card-img-top" alt="...">
+    // <div class="card-body">
+    //   <h5 class="card-title" style="color: whitesmoke;">${country_name}</h5>
+    // </div>
+    // <ul class="list-group list-group-flush">
+    //   <li class="list-group-item">Population : ${population}</li>
+    //   <li class="list-group-item">Currency Name : ${currency_name}</li>
+    //   <li class="list-group-item">Currency Symbol : ${currency_symbol}</li>
+    // </ul>
+    // </div>`
     data.innerHTML = html_data
 }
+
+
